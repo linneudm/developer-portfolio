@@ -1,30 +1,39 @@
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title: 'Ruby on Rails Course',
+            details : 'Ruby On Rails – Curso Completo',
+            date : 'Jan. 13, 2017',
+            field : 'Development',
+            image : 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Ruby_on_Rails_logo.jpg'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Advanced Python',
+            details : 'Python 3 Avançado',
+            date : 'Mar. 17, 2019',
+            field : 'Development',
+            image : 'https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com001.jpg'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
-        }
+            title : 'Django and Django Rest Framework',
+            details : 'Criando poderosas API’s RESTful com Django Rest Framework',
+            date : 'Sep. 20, 2019',
+            field : 'Development',
+            image : 'https://trio.dev/static/f6f147c827578b4157edef06f5ec9ec2/ef478983f0b5051ef98d8134dae05ddc.jpg'
+        },
+        {
+            id : 4,
+            title : 'Django Rest and VueJS',
+            details : 'The Complete Guide to Django REST Framework and Vue JS',
+            date : 'Jul. 29, 2020',
+            field : 'Development',
+            image : 'https://miro.medium.com/max/1024/1*j_f-fL9EHgaFn4IRi7NZ7g.png'
+        },
+        
 
     ]
 }

@@ -1,19 +1,19 @@
 import React, { useContext } from 'react'
 import './Footer.css'
 import { ThemeContext } from '../../contexts/ThemeContext'
-import { headerData } from '../../data/headerData'
+import { makeStyles } from '@material-ui/core/styles'
 
 function Footer() {
 
-    const shortname = (name) => {
-        if(name.length > 10) {
-            return name.split(" ")[0]
-        } else {
-            return name
-        }
-    }
+    const useStyles = makeStyles((t) => ({
+        linkFooter : {
+            color: theme.primary,
+        },
+    }));
 
     const { theme }  = useContext(ThemeContext)
+
+    const classes = useStyles();
 
     return (
         <div className="footer" style={{backgroundColor: theme.secondary}}>
@@ -22,7 +22,7 @@ function Footer() {
                 <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
                     ❤
                 </span>
-                 by {shortname(headerData.name)}
+                 by <a className={classes.linkFooter} rel="noopener noreferrer" href="https://github.com/hhhrrrttt222111" target="_blank">Hemanth R</a>
             </p>
         </div>
     )

@@ -22,9 +22,9 @@ function Services() {
                             These are some of the services I offer. Reach out to me if I can help you with any!
                         </p>
                         <div className="services-bodycontainer">
-                            {servicesData.map(services => (
+                            {servicesData.map((services, index) => (
                                 <SingleService
-                                key={services.id}
+                                key={index}
                                 id={services.id}
                                 title={services.title}
                                 icon={services.icon}/>

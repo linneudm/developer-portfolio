@@ -107,9 +107,9 @@ function Landing() {
                                     <Button className={classes.resumeBtn}>Download CV</Button>
                                 </a>
                             )}
-                            <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
+                            {/*<NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
                                 <Button className={classes.contactBtn}>Contact</Button>
-                            </NavLink>
+                            </NavLink>*/}
                         </div>
                     </div>
                 </div>
