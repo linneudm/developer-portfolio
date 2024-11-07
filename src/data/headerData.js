@@ -1,9 +1,11 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/linneu-curriculo.pdf'
 
 export const headerData = {
     name: 'Linneu Lopes',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://pbs.twimg.com/profile_images/1533858280161820672/31GBHwap_400x400.jpg',
+    title: "Software Engineer",
+    desciption:`
+    I'm a web programmer since 2018. I have always used frameworks like a Django, Vue.JS or Jquery. I currently work with TypeScript using Standard to lint my code. Connect with me and lets talk
+    `,
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE1gHT5tsLVKw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730940206174?e=1736380800&v=beta&t=6mFacHZef1EF6IFy_4pBLxl2jEbA5gSjVYZnNg2ftFs',
     resumePdf: resume
 }
